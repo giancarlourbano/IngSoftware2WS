@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="Registrar">
+      <implementation-class>edu.ulima.sw2.Registrar</implementation-class>
+    </service>
+    <service name="Login">
+      <implementation-class>edu.ulima.sw2.Login</implementation-class>
+    </service>
+    <service name="Compra">
+      <implementation-class>edu.ulima.sw2.Compra</implementation-class>
+    </service>
+    <service name="Articulo_Nuevo">
+      <implementation-class>edu.ulima.sw2.Articulo_Nuevo</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
